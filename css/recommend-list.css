@@ -1,0 +1,70 @@
+.recommend-list-title{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 80%;
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: 100;
+    font-family: -apple-system, fantasy;
+    margin: 20px;
+    flex: 1;
+    /*position: fixed;*/
+}
+.recommend-list{
+    flex: 2;
+    /*position: fixed;*/
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /*overflow: scroll;*/
+
+}
+.recommend-item-box{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    height: 140px;
+    width: 100px;
+    /*border: 1px solid whitesmoke;*/
+    position: relative;
+
+}
+.recommend-item-inf-left{
+    position: absolute;
+    left: 0px;
+    bottom: 40px;
+    color:whitesmoke;
+    font-size: 12px;
+}
+.recommend-item-inf-right{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color:lightgray;
+    font-size: 12px;
+}
+.recommend-item-inf{
+    font-size: 14px;
+    font-weight: 100;
+    color: whitesmoke;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.recommend-item{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 3px;
+    /*border: 1px solid red;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.block{
+    height: 80px;
+    width: 100%;
+}

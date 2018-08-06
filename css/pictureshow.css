@@ -1,0 +1,83 @@
+.picture-show {
+    /*position: fixed;*/
+    flex: 3;
+    height: 100%;
+    width: 100%;
+    /*border: 5px solid crimson;*/
+    background-position: left center;
+    /*background-attachment: fixed;*/
+    /*background-size: 100%;*/
+    background-size: cover;
+    background-image: url(../image/1.png);
+    background-repeat: no-repeat;
+    margin: 2px;
+    border-radius: 10px;
+    /*overflow: scroll;*/
+}
+
+.tab-pic{
+    animation: tab 8s infinite ;
+}
+@keyframes tab {
+    /*0%{*/
+        /*margin: 1px;*/
+        /*height: 100%;*/
+        /*width: auto;*/
+        /*background-size: cover;*/
+        /*background-image: url(../image/1.png);*/
+        /*border-radius: 10px;*/
+    /*}*/
+    0%{
+        /*margin: 1px;*/
+        /*height: 100%;*/
+        /*width: auto;*/
+        /*background-size: cover;*/
+        background-image: url(../image/1.png);
+
+    }
+    20%{
+        /*margin: 1px;*/
+        /*height: 100%;*/
+        /*!*width: 100%;*!*/
+        /*width: auto;*/
+        /*background-size: cover;*/
+        background-image: url(../image/2.png);
+        /*border-radius: 10px;*/
+    }
+    40%{
+        /*margin: 1px;*/
+        /*height: 100%;*/
+        /*width: auto;*/
+        /*!*width: 100%;*!*/
+        /*background-size: cover;*/
+        background-image: url(../image/3.png);
+        /*border-radius: 10px;*/
+    }
+    60%{
+        /*margin: 1px;*/
+        /*height: 100%;*/
+        /*!*width: 100%;*!*/
+        /*width: auto;*/
+        /*background-size: cover;*/
+        background-image: url(../image/4.png);
+        /*border-radius: 10px;*/
+    }
+    80%{
+        /*margin: 1px;*/
+        /*height: 100%;*/
+        /*!*width: 100%;*!*/
+        /*width: auto;*/
+        /*background-size: cover;*/
+        background-image: url(../image/5.png);
+        /*border-radius: 10px;*/
+    }
+    100%{
+        /*margin: 1px;*/
+        /*height: 100%;*/
+        /*!*width: 100%;*!*/
+        /*width: auto;*/
+        /*background-size: cover;*/
+        background-image: url(../image/1.png);
+        /*border-radius: 10px;*/
+    }
+}

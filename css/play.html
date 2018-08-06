@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/container.css">
+    <link rel="stylesheet" href="../css/body.css">
+    <link rel="stylesheet" href="../css/play.css">
+</head>
+<body>
+<div class="container">
+
+    <!--状态栏开始-->
+    <div class="statusbar">
+        <!--信号开始-->
+        <div class="signal">
+            <div class="signalinf">
+                <div id="d1"></div>
+                <div id="d2"></div>
+                <div id="d3"></div>
+                <div id="d4"></div>
+            </div>
+            <div class="unicom">中国联通</div>
+            <div class="xg">4G</div>
+        </div>
+        <!--信号结束-->
+        <div class="time">下午 18:35</div>
+        <!--电池开始-->
+        <div class="power">
+            <div id="chargebox">
+                <div id="batterycore" class="charging"></div>
+            </div>
+            <div id="chargehead"></div>
+        </div>
+        <!--电池结束-->
+
+    </div>
+    <!--状态栏结束-->
+
+    <!--身体开始-->
+    <div class="song-body">
+
+        <!--顶栏开始-->
+        <div class="top-bar">
+            <div id="small"></div>
+            <div class="top-bar-inf xy-center"style="flex: 9;font-size: 16px">&nbsp;&nbsp;我的滑板鞋<br>约瑟翰庞麦郎&gt;</div>
+            <div class="top-bar-inf"></div>
+        </div>
+
+        <div class="play-body">
+
+            <div class="cd-show-box">
+                <div class="cd-show-pic"></div>
+
+
+            </div>
+            <div class="cd-like-box"></div>
+            <div class="play-scroll-box"></div>
+            <div class="play-box"></div>
+
+
+
+        </div>
+
+
+        <!--顶栏结束-->
+
+
+    </div>
+    <!--身体结束-->
+    <!--底栏开始-->
+    <div class="bottom-bar" >
+        <div class="bottom1" data-page1="home_page.html"></div>
+        <div class="bottom2"></div>
+        <div class="bottom3" data-page3="music_list.html"></div>
+        <div class="bottom4" data-page4="friends.html"></div>
+        <div class="bottom5" data-page5="settings.html"></div>
+    </div>
+    <div class="bottom-inf">
+        <div class="bottom1inf">发现</div>
+        <div class="bottom2-4inf">视频</div>
+        <div class="bottom2-4inf">我的</div>
+        <div class="bottom2-4inf">朋友</div>
+        <div class="bottom5inf">账号</div>
+    </div>
+    <!--底栏结束-->
+</div>
+
+
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/router.js"></script>

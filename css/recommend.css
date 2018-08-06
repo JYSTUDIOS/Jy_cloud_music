@@ -1,0 +1,61 @@
+.recommend{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    /*position: fixed;*/
+}
+.rec-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.rec-box-inf{
+    font-weight: 100;
+    font-size: 14px;
+    position: absolute;
+    bottom: -20px;
+    color: whitesmoke;
+}
+.rec-arc{
+    background-color: dimgrey;
+    height: 55px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.rec1{
+    height: 75%;
+    width: 75%;
+    background-size: cover;
+    background-image: url(../image/个人电台.svg);
+    background-repeat: no-repeat;
+}
+.rec2{
+    height: 55%;
+    width: 55%;
+    background-size: cover;
+    background-image: url(../image/日历.svg);
+    background-repeat: no-repeat;
+}
+.rec3{
+    height: 65%;
+    width: 65%;
+    background-size: cover;
+    background-image: url(../image/播放列表.svg);
+    background-repeat: no-repeat;
+}
+.rec4{
+    height: 50%;
+    width: 50%;
+    background-size: cover;
+    background-image: url(../image/排行榜.svg);
+    background-repeat: no-repeat;
+}

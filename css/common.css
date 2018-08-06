@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 100;
+    font-family: -apple-system, sans-serif;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.xy-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

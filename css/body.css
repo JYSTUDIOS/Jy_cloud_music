@@ -1,0 +1,303 @@
+.body{
+    /*position: fixed;*/
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    background-color: #212121;
+    display: flex;
+    flex-flow: column wrap;
+    overflow-y: scroll;
+    /*overflow-scrolling: touch;*/
+    /*overflow-y: hidden;*/
+    /*border: 10px solid red;*/
+}
+.setting-body{
+    height: 100%;
+    width: 100%;
+    /*position: fixed;*/
+    flex: 1;
+    background-color: #212121;
+    display: flex;
+    flex-flow: column wrap;
+    overflow: scroll;
+}
+.top-bar{
+    /*flex: 1;*/
+    height: 45px;
+    /*height: 100%;*/
+    width: 100%;
+    color: whitesmoke;
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*position: relative;*/
+    /*border: 1px red solid;*/
+}
+.top-bar-inf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    font-size: 20px;
+    /*border: 1px solid crimson;*/
+    /*flex: 1;*/
+}
+.option-top-bar{
+    /*flex: 1;*/
+    height: 120px;
+    /*height: 100%;*/
+    width: 100%;
+    background-color: #303030;
+    display: flex;
+    flex-flow: row;
+}
+.option-top-bar-box{
+    position: relative;
+    color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    /*border: 1px red solid;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+#CEO{
+    /*border: 3px solid red;*/
+    /*position: absolute;*/
+    /*left: 10px;*/
+    /*top: 25px;*/
+    word-break: keep-all;
+}
+#music-bag{
+    height: 20px;
+    width: 30px;
+    /*border-radius: 100%;*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right;
+    background-image: url(../image/标签_音乐包.svg);
+}
+#vip{
+    height: 22px;
+    width: 40px;
+    /*border-radius: 100%;*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(../image/vip.svg);
+}
+#pig{
+    height: 55px;
+    width: 55px;
+    /*border-radius: 100%;*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(../image/小猪.svg);
+    /*border: 3px solid powderblue;*/
+}
+.sign{
+    color: crimson;
+    padding: 1px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 75px;
+    border: 1px solid crimson;
+    border-radius: 25px;
+    /*background-image: url(../image/icon-47-汉堡.svg);*/
+}
+
+.option-top-inf{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid  #8B8989;
+
+}
+
+.option{
+    height: 100%;
+    width: 100%;
+    flex: 3;
+    display: flex;
+    flex-flow: row wrap;
+    /*overflow: scroll;*/
+}
+
+.sign-out{
+    color: crimson;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.option-item{
+    background-color: #303030;
+    color: #8B8989;
+    /*margin-top: 10px;*/
+    /*margin-bottom: 10px;*/
+    display: flex;
+    /*flex: 1;*/
+    align-items: center;
+    flex-flow: row nowrap;
+    height: 50px;
+    width: 100%;
+    /*border-bottom: 1px solid grey;*/
+    box-shadow: 1px 1px 1px grey;
+}
+.option-item-highlight{
+    background-color: #303030;
+    color: #8B8989;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    flex: 1;
+
+    height: 50px;
+    width: 100%;
+    /*border: 1px solid grey;*/
+    box-shadow: 1px 1px 1px grey;
+}
+.option-item-pic{
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-image: url(../image/信息－17.svg);*/
+}
+.option-item-word{
+    /*height: 50%;*/
+    color: lightgray;
+    font-size: 18px;
+    flex: 6;
+    /*border: 1px solid crimson;*/
+}
+.option-item-other{
+    height: 35px;
+    width: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 1;
+    /*border: 1px solid crimson;*/
+    border-radius: 40px;
+    margin-right: 20px;
+}
+.option-item-block{
+    height: 35px;
+    width: 65px;
+}
+.option-top-inf-box{
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    flex-flow: column;
+    /*align-items: center;*/
+    color: grey;
+    flex: 1;
+    /*border: crimson solid 1px;*/
+    /*margin: 2px;*/
+    border-right: 1px solid gray;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.option-top-inf-box-item1{
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    /*border: 1px solid red;*/
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    margin: 5px;
+    font-size: 14px;
+    /*background-size: cover;*/
+    /*background-image: url(../image/铅笔.svg);*/
+}
+
+.option-top-inf-box-item2{
+    /*border: 1px solid red;*/
+    font-weight: 100;
+
+    height: 22px;
+    width: 22px;
+    background-size: cover;
+    background-image: url(../image/铅笔.svg);
+}
+
+.listening{
+    height: 40px;
+    width: 30px;
+    /*border: 1px solid white;*/
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.lis{
+    height: 15px;
+    width: 4px;
+    border-radius: 2px 2px 0px 0px;
+    background-color: lightgray;
+}
+#lis1{
+    height: 15px;
+    width: 4px;
+    border-radius: 2px 2px 0px 0px;
+    background-color: lightgray;
+}
+#lis2{
+    height: 30px;
+    width: 4px;
+    border-radius: 2px 2px 0px 0px;
+    background-color: lightgray;
+}
+#lis3{
+    height: 15px;
+    width: 4px;
+    border-radius: 2px 2px 0px 0px;
+    background-color: lightgray;
+}
+#lis4 {
+    height: 30px;
+    width: 4px;
+    border-radius: 2px 2px 0px 0px;
+    background-color: lightgray;
+}
+@keyframes music1 {
+    0%{
+        height: 15px;
+    }
+    50%{
+        height: 30px;
+    }
+    100%{
+        height: 15px;
+    }
+}
+@keyframes music2 {
+    0%{
+        height: 30px;
+    }
+    50%{
+        height: 10px;
+    }
+    100%{
+        height: 30px;
+    }
+}
+
+.music1on{
+    animation: music1 0.8s linear infinite;
+}
+.music2on{
+    animation: music2 0.6s linear infinite;
+}
