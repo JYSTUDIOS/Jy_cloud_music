@@ -1,15 +1,8 @@
 .container{
     position: fixed;
-    /*height: 600px;*/
-    /*width: 330px;*/
     height: 100%;
     width: 100%;
     display: flex;
     flex-flow: column wrap;
     overflow: scroll;
-    /*overflow-y: hidden;*/
-    /*justify-content: space-between;*/
-    /*align-items: start;*/
-    /*justify-content: center;*/
-    /*border: 1px solid crimson;*/
 }

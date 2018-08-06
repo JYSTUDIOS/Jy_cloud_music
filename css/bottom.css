@@ -1,83 +1,29 @@
 
 .bottom-bar{
-    /*height: 45px;*/
-    /*width: 100%;*/
-    /*background-color: black;*/
-    /*border: 2px solid crimson;*/
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    /*position: fixed;*/
-    /*bottom: 20px;*/
-    /*left: 0px;*/
     width: 100%;
     height: 50px;
     background-color: #212121;
-    /*flex: 1;*/
-    /*z-index: 10 ;*/
 }
 .bottom-inf{
-    /*position: fixed;*/
-    /*bottom: 0px;*/
-    /*left: 0px;*/
-    /*flex: 1;*/
     height: 20px;
     width: 100%;
     background-color: #212121;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    /*z-index: 10;*/
 }
-.bottom1inf{
-    margin-left: 25px;
+.bottom-inf-item{
     color: whitesmoke;
     font-size: 13px;
-    font-family: 微软雅黑;
-}
-.bottom2-4inf{
-    color: whitesmoke;
-    font-size: 13px;
-    font-family: 微软雅黑;
-}
-.bottom5inf{
-    margin-right:25px;
-    font-size: 13px;
-    color: whitesmoke;
     font-family: 微软雅黑;
 }
 
-.bottom1{
+.bottom{
     height: 35px;
     width: 35px;
     background-size: cover;
-    background-image: url(../image/网易云音乐.svg);
-    margin-left: 20px;
-}
 
-.bottom2{
-    height: 35px;
-    width: 35px;
-    background-size: cover;
-    background-image: url(../image/视频.svg);
 }
-.bottom3{
-    height: 38px;
-    width: 38px;
-    background-size: cover;
-    background-image: url(../image/音乐.svg);
-}
-.bottom4{
-    height: 36px;
-    width: 36px;
-    background-size: cover;
-    background-image: url(../image/朋友.svg);
-}
-.bottom5{
-    height: 37px;
-    width: 37px;
-    background-size: cover;
-    margin-right: 20px;
-    background-image: url(../image/我的.svg);
-}
-

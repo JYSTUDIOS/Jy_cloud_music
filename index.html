@@ -16,11 +16,10 @@
     <link rel="stylesheet" href="css/music-list.css">
     <link rel="stylesheet" href="css/friends.css">
     <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/play.css">
 </head>
 <body>
     <div class="container">
-
-        <!--状态栏开始-->
         <div class="statusbar">
             <!--信号开始-->
             <div class="signal">
@@ -54,7 +53,7 @@
             <div class="search">
                 <div class="voice"></div>
                 <div class="search-music"><input placeholder="&nbsp;&nbsp;&nbsp;&nbsp;猜你喜欢 我的滑板鞋"></div>
-                <div class="listening" >
+                <div class="listening" data-page="play.html">
                     <div id="lis1" class="music1on"></div>
                     <div id="lis2" class="music2on"></div>
                     <div id="lis3" class="music1on"></div>
@@ -192,19 +191,29 @@
             </div>
             <!--身体结束-->
         <!--底栏开始-->
-        <div class="bottom-bar" >
-            <div class="bottom1" data-page1="home_page.html"></div>
-            <div class="bottom2"></div>
-            <div class="bottom3" data-page3="music_list.html"></div>
-            <div class="bottom4" data-page4="friends.html"></div>
-            <div class="bottom5" data-page5="settings.html"></div>
+        <div class="bottom-bar">
+            <div id="bot1" class="bottom" data-page="home_page.html" data-normal1="image/网易云音乐.svg" data-selected1="image/网易云音乐红.svg" style="margin-left: 20px;">
+                <img src="image/网易云音乐红.svg" height="35px" width="35px">
+            </div>
+            <div id="bot2" class="bottom" data-normal2="image/视频.svg" data-selected2="image/视频红.svg">
+                <img src="image/视频.svg" height="35px" width="35px">
+            </div>
+            <div id="bot3" class="bottom" data-page="music_list.html" data-normal3="image/音乐.svg" data-selected3="image/音乐红.svg" >
+                <img src="image/音乐.svg" height="35px" width="35px">
+            </div>
+            <div id="bot4" class="bottom" data-page="friends.html" data-normal4="image/朋友.svg" data-selected4="image/朋友红.svg" >
+                <img src="image/朋友.svg" height="35px" width="35px">
+            </div>
+            <div id="bot5" class="bottom" data-page="settings.html" data-normal5="image/我的.svg" data-selected5="image/我红.svg" style="margin-right: 20px;">
+                <img src="image/我的.svg" height="35px" width="35px">
+            </div>
         </div>
         <div class="bottom-inf">
-            <div class="bottom1inf">发现</div>
-            <div class="bottom2-4inf">视频</div>
-            <div class="bottom2-4inf">我的</div>
-            <div class="bottom2-4inf">朋友</div>
-            <div class="bottom5inf">账号</div>
+            <div id="bof1" class="bottom-inf-item" data-normalfont1="color: whitesmoke;margin-left: 25px;" data-selectedfont1="color: crimson;margin-left: 25px;" style="color: crimson;margin-left: 25px;">发现</div>
+            <div id="bof2" class="bottom-inf-item" data-normalfont2="color: whitesmoke" data-selectedfont2="color: crimson">视频</div>
+            <div id="bof3" class="bottom-inf-item" data-normalfont3="color: whitesmoke" data-selectedfont3="color: crimson">我的</div>
+            <div id="bof4" class="bottom-inf-item" data-normalfont4="color: whitesmoke" data-selectedfont4="color: crimson">朋友</div>
+            <div id="bof5" class="bottom-inf-item" data-normalfont5="color: whitesmoke; margin-right:25px;" data-selectedfont5="color: crimson;margin-right:25px;" style="margin-right:25px;">账号</div>
         </div>
         <!--底栏结束-->
     </div>

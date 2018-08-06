@@ -2,7 +2,6 @@
     flex: 3;
     height: 100%;
     width: 100%;
-    /*border: 1px solid crimson;*/
 
 }
 .friend-top-bar{
@@ -13,19 +12,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*border: 1px red solid;*/
 }
 .friend-top-bar-box{
     height: 35px;
     width: 150px;
-    /*border: 1px solid grey;*/
     border-radius: 20px;
 }
 .friend-top-bar-box-item{
     height: 80%;
     width: 65%;
-    /*flex: 1;*/
-    /*background-color: #8B8989;*/
     display: flex;
     border: 1px solid grey;
     border-radius: 20px;
@@ -33,8 +28,6 @@
 .friend-top-bar-box-item-highlight{
     height: 100%;
     width: 50%;
-    /*flex: 1;*/
-    /*background-color: #8B8989;*/
     border-radius: 20px;
     font-size: 18px;
     font-weight: 400;
@@ -49,7 +42,6 @@
     background-color: #212121;
 }
 .top-write-bar-box{
-    /*border: 1px solid crimson;*/
     height: 25px;
     width: 70%;
     background-color: #212121;
@@ -57,7 +49,6 @@
     flex-flow: row;
 }
 .top-write-bar-item{
-    /*border: 1px solid red;*/
     height: 100%;
     width: 100%;
     flex: 1;
@@ -73,7 +64,6 @@
 }
 .person-list-title{
     padding: 5px;
-    /*border: 1px solid crimson;*/
     height: 50px;
     width: 100%;
     display: flex;
@@ -81,7 +71,6 @@
     color: #8B8989;
 }
 .person-list{
-    /*border: 1px solid crimson;*/
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -91,11 +80,9 @@
     overflow: scroll;
 }
 .person-list-item{
-    /*border: 1px solid crimson;*/
     flex: 1;
     height: 100%;
     width: 100%;
-    /*background-color: #D0E9FF;*/
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -104,7 +91,6 @@
 }
 .person-list-item-pic{
     flex: 3;
-    /*border: 1px solid crimson;*/
     height: 60px;
     width: 60px;
     background-repeat: no-repeat;
@@ -132,7 +118,6 @@
     margin: 8px;
 }
 .person-dynamic-big-box{
-    /*flex: 10;*/
     height: 100%;
     width: 100%;
     display: flex;
@@ -149,16 +134,13 @@
     display: flex;
     flex-flow: column;
     margin: 5px;
-    /*border: 5px blue solid;*/
 }
 
 .person-dynamic-left-pic{
     flex: 1;
     height: 65px;
     width: 65px;
-    /*border: 5px solid yellow;*/
     background-image: url(../image/7.jpg);
-    /*background-size: cover;*/
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -182,7 +164,6 @@
     width: 100%;
     display: flex;
     flex-flow: column;
-    /*border: 1px solid crimson;*/
 }
 .person-dynamic-right-box1{
     flex:1;
@@ -190,7 +171,6 @@
     width: 100%;
     display: flex;
     flex-flow: row;
-    /*border: 1px solid yellow;*/
 }
 .person-dynamic-right-box1-inf{
     flex: 1;
@@ -198,7 +178,6 @@
     width: 100%;
     display: flex;
     flex-flow: column;
-    /*border: 1px solid crimson;*/
 
 }
 .person-dynamic-right-box1-name{
@@ -206,14 +185,12 @@
     height: 100%;
     width: 100%;
     color: dodgerblue;
-    /*border: 1px solid crimson;*/
 }
 .person-dynamic-right-box1-time{
     flex: 1;
     height: 100%;
     width: 100%;
     color: #8B8989;
-    /*border: 1px solid crimson;*/
 }
 .person-dynamic-right-box1-pic{
     flex: 1;
@@ -233,7 +210,6 @@
 
 
 .person-dynamic-right-box2{
-    /*border: 1px solid crimson;*/
     flex: 1;
     height: 100%;
     width: 100%;
